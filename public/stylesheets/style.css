@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900);
+
+.white{
+  color:white;
+}
+
+.large{
+  font-size: 110px;
+}
+
+
+.epy{
+  width: 900px;
+
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 114, color-stop(0%, #0CB1E4), color-stop(100%, #0185CB));
+  background-image: -webkit-radial-gradient(center center, farthest-side circle, #0CB1E4 0%, #0185CB 100%);
+  background-image: -moz-radial-gradient(center center, farthest-side circle, #0CB1E4 0%, #0185CB 100%);
+  background-image: -ms-radial-gradient(center center, farthest-side circle, #0CB1E4 0%, #0185CB 100%);
+  background-image: -o-radial-gradient(center center, farthest-side circle, #0CB1E4 0%, #0185CB 100%);
+  background-image: radial-gradient(farthest-side circle at center center, #0CB1E4 0%, #0185CB 100%);
+
+  color: rgb(0, 41, 65);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  border: 4px solid white;
+}
+
+
+.epy hr{
+  display: block; height: 2px;
+  border: 0; border-top: 2px solid rgb(7, 137, 176);
+  margin: 1em 0; padding: 0; 
+}
+
+.epy a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.epy-headers{
+  height: 30px; 
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+.epy-logo{
+  float:left;
+}
+
+.epy-title{
+  text-align: center;
+  color: rgb(2, 60, 75);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tangle {
+  padding-left: 100px;  
+}
+
+.epy-refresh{
+  float:right;
+}
+
+.epy-caption{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.epy-timeline{
+  margin-top: 10px;  
+  height: 50px;  
+  padding-left: 60px;
+}
+
+.epy-timeline img{
+  height: 50px;
+  margin-right: 10px;
+ 
+  -moz-box-shadow:    1px 1px 1px 1px rgb(0, 41, 65);
+  -webkit-box-shadow: 1px 1px 1px 1px rgb(0, 41, 65);
+  box-shadow:         1px 1px 1px 1px rgb(0, 41, 65);
+}
+
+.epy-tooltip{ 
+  padding-left: 70px;
+  height: 80px;
+  line-height: 80px;
+  vertical-align:middle;
+  background-color:rgb(0, 114, 191);
+  background-image: url("/images/lightbulb-icon.png"); 
+  background-size: 50px;
+  background-position: 12px center;
+  background-repeat: no-repeat;
+}
+
+
+.tanglable{
+  cursor: ew-resize;
+  color: white;
+  border-bottom: 1px dotted white;
+}
+
+path.lineH0, path.lineH1 {
+  fill: none;
+  stroke: rgb(204, 240, 249);
+  stroke-width: 1.5px;
+}
+
+path.lineH1 {
+  stroke: white;
+}
+
+
+path.mean {
+  stroke-width: 2.5px;
+}
+
+path.areaH0 {
+  fill: rgb(42,195,232); 
+  opacity:0.3;
+}
+
+path.areaH1 {
+  fill: rgb(42,195,232); 
+  opacity:0.;
+}
+
+.tick{
+  stroke: none;
+  fill: white;
+  font-size: 14px;
+}
+
+.label{
+  stroke: none;
+  fill: rgb(0, 41, 65);
+}
+
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis line, .y.axis line {
+  stroke: none;
+}
+
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+
+.x.axis path, .y.axis path {
+  display: none;
+}

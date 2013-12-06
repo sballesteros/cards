@@ -1,0 +1,13 @@
+{
+  "name": "tangle.io",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "~3.4.0",
+    "browserify-middleware": "~1.17.2"
+  }
+}
