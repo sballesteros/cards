@@ -8,6 +8,7 @@
   "dependencies": {
     "ejs": "*",
     "express": "~3.4.0",
-    "browserify-middleware": "~1.17.2"
+    "browserify-middleware": "~1.17.2",
+    "d3": "*"
   }
 }
